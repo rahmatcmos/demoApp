@@ -1,18 +1,23 @@
 /* Empty. Add your own CSS if you like */
 .green{
-	border-top: 1px solid green;
+	border-top: 2px solid #43A047;
 }
 
 .blue{
-	border-top: 1px solid blue;
+	border-top: 2px solid #3F51B5;
 }
 
 .red{
-	border-top: 1px solid red;
+	border-top: 2px solid #D32F2F;
 }
 #map {
   width: 100%;
   height: 100%;
+}
+
+.jeda{
+	margin-right: 2%;
+	margin-left: 2%;
 }
 
 .scroll {
