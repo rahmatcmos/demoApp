@@ -1,0 +1,11 @@
+<ion-view view-title="Search">
+  <ion-content>
+    <h1>{{hiCamera}}</h1>
+    <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}">
+    <img ng-show="imgURI === undefined" ng-src="http://placehold.it/300x300">
+    <button class="button button-block" ng-click="cam()">
+      <i class="icon ion-camera"></i>
+        Camera
+    </button>
+  </ion-content>
+</ion-view>
